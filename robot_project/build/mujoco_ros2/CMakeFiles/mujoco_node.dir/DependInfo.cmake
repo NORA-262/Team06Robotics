@@ -1,0 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/amr/robot_project/src/mujoco_ros2/src/mujoco_ros.cpp" "CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o" "gcc" "CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o.d"
+  "/home/amr/robot_project/src/mujoco_ros2/src/nodes/mujoco_node.cpp" "CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o" "gcc" "CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

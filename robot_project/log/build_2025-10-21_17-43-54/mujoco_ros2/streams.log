@@ -1,0 +1,94 @@
+[0.015s] Invoking command in '/home/amr/robot_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amr/robot_project/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/amr/robot_project/install/mujoco_ros2
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.282s] -- Detecting CXX compiler ABI info
+[0.386s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.642s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.669s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.674s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.679s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.734s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.736s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.874s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.913s] -- Looking for pthread.h
+[1.003s] -- Looking for pthread.h - found
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.107s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.109s] -- Found Threads: TRUE  
+[1.162s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.243s] -- Configuring done
+[1.252s] -- Generating done
+[1.257s] -- Build files have been written to: /home/amr/robot_project/build/mujoco_ros2
+[1.270s] Invoked command in '/home/amr/robot_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/amr/robot_project/src/mujoco_ros2 -DCMAKE_INSTALL_PREFIX=/home/amr/robot_project/install/mujoco_ros2
+[1.270s] Invoking command in '/home/amr/robot_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amr/robot_project/build/mujoco_ros2 -- -j6 -l6
+[1.342s] [ 33%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/nodes/mujoco_node.cpp.o[0m
+[1.342s] [ 66%] [32mBuilding CXX object CMakeFiles/mujoco_node.dir/src/mujoco_ros.cpp.o[0m
+[8.993s] [100%] [32m[1mLinking CXX executable mujoco_node[0m
+[9.411s] [100%] Built target mujoco_node
+[9.431s] Invoked command in '/home/amr/robot_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amr/robot_project/build/mujoco_ros2 -- -j6 -l6
+[9.448s] Invoking command in '/home/amr/robot_project/build/mujoco_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amr/robot_project/build/mujoco_ros2
+[9.462s] -- Install configuration: ""
+[9.462s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node
+[9.463s] -- Set runtime path of "/home/amr/robot_project/install/mujoco_ros2/lib/mujoco_ros2/mujoco_node" to ""
+[9.464s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/launch
+[9.464s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/launch/example.py
+[9.464s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model
+[9.464s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm.xml
+[9.465s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm
+[9.465s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm/LICENSE
+[9.472s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm/README.md
+[9.473s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/low_cost_robot_arm/low_cost_robot_arm.png
+[9.473s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow_motor.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_collision_2.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger_collision_1.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation_motor.stl
+[9.474s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_motor.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger_collision_2.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_moving_finger.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger_collision_1.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension_motor.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_extension_collision.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link_collision.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_motor.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_rotation_collision.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/base_link_motor.stl
+[9.475s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/shoulder_to_elbow_collision.stl
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/gripper_static_finger.stl
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/assets/elbow_to_wrist_collision.stl
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/model/scene.xml
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/ament_index/resource_index/package_run_dependencies/mujoco_ros2
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/ament_index/resource_index/parent_prefix_path/mujoco_ros2
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.sh
+[9.476s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/environment/ament_prefix_path.dsv
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.sh
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/environment/path.dsv
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.bash
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.sh
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.zsh
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/local_setup.dsv
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/package.dsv
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/ament_index/resource_index/packages/mujoco_ros2
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config.cmake
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/cmake/mujoco_ros2Config-version.cmake
+[9.477s] -- Installing: /home/amr/robot_project/install/mujoco_ros2/share/mujoco_ros2/package.xml
+[9.484s] Invoked command in '/home/amr/robot_project/build/mujoco_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amr/robot_project/build/mujoco_ros2
