@@ -21,7 +21,7 @@ def generate_launch_description():
         parameters = [   
                         {"joint_state_topic_name" : "joint_state"},
                         {"joint_command_topic_name" : "joint_commands"},
-                        {"control_mode" : "VELOCITY"},
+                        {"control_mode" : "TORQUE"},
                         {"simulation_frequency" : 1000},
                         {"visualisation_frequency" : 20},
                         {"camera_focal_point": [0.0, 0.0, 0.25]},
